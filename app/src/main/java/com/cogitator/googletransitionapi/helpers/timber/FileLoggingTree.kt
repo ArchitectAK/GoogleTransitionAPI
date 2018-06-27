@@ -1,6 +1,7 @@
 package com.cogitator.googletransitionapi.helpers.timber
 
 import android.content.Context
+import com.cogitator.googletransitionapi.helpers.utils.generateInternalFile
 import timber.log.Timber
 import java.io.FileWriter
 import java.text.SimpleDateFormat
