@@ -1,14 +1,21 @@
 package com.cogitator.googletransitionapi.helpers.rx
 
+import io.reactivex.Observable
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.disposables.Disposable
+import io.reactivex.subjects.PublishSubject
+import timber.log.Timber
+
 /**
  * @author Ankit Kumar (ankitdroiddeveloper@gmail.com) on 27/06/2018 (MM/DD/YYYY)
  */
-object RxBus {    /**
- * Used to hold all subscriptions for Bus events and un-subscribe properly when needed.
- */
-private val subscriptionsMap: HashMap<Any, CompositeDisposable?> by lazy {
-    HashMap<Any, CompositeDisposable?>()
-}
+object RxBus {
+    /**
+     * Used to hold all subscriptions for Bus events and un-subscribe properly when needed.
+     */
+    private val subscriptionsMap: HashMap<Any, CompositeDisposable?> by lazy {
+        HashMap<Any, CompositeDisposable?>()
+    }
 
     /**
      * Avoid using this property directly, exposed only because it's used in inline fun
