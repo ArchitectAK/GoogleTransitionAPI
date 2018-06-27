@@ -1,6 +1,8 @@
 package com.cogitator.googletransitionapi.model.data
 
+import com.cogitator.googletransitionapi.model.data.room.TransitionDao
 import com.cogitator.googletransitionapi.model.models.TransitionEvent
+import javax.inject.Inject
 import javax.inject.Singleton
 
 /**

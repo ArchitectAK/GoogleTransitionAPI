@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 import com.cogitator.googletransitionapi.helpers.constants.Constants
 import javax.inject.Singleton
 import com.cogitator.googletransitionapi.di.qualifier.ApplicationContext
+import javax.inject.Inject
 
 /**
  * @author Ankit Kumar (ankitdroiddeveloper@gmail.com) on 27/06/2018 (MM/DD/YYYY)
