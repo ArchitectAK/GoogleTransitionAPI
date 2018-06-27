@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GoogleTransitionAPI</string>
+    <string name="no_data_found_error_msg">Data not found</string>
+    <string name="db_fetch_error_msg">DB fetch issue</string>
 </resources>
