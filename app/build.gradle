@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'kotlin-kapt'
+
 androidExtensions {
     experimental = true
 }
@@ -89,9 +91,10 @@ dependencies {
     // Dagger 2
     implementation "com.google.dagger:dagger:$daggerVersion"
     implementation "com.google.dagger:dagger-android-support:$daggerVersion"
+    implementation "com.google.dagger:dagger-android-support:$daggerVersion"
     kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
-    compileOnly 'javax.annotation:jsr250-api:1.0'
+//    compileOnly 'javax.annotation:jsr250-api:1.0'
 
     // Room ORM
     implementation "android.arch.persistence.room:runtime:$roomVersion"

@@ -19,8 +19,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".model.data.transitions.TransitionIntentService" />
-        <service android:name=".model.data.transitions.TransitionService" />
+
+        <service
+            android:name=".model.data.transitions.TransitionIntentService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".model.data.transitions.TransitionService"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 </manifest>

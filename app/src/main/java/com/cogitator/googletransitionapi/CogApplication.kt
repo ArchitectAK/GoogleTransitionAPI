@@ -3,6 +3,7 @@ package com.cogitator.googletransitionapi
 import android.app.Activity
 import android.app.Application
 import android.app.Service
+import com.cogitator.googletransitionapi.di.component.DaggerAppComponent
 import com.cogitator.googletransitionapi.helpers.timber.DebugLogTree
 import com.cogitator.googletransitionapi.helpers.timber.FileLoggingTree
 import com.cogitator.googletransitionapi.helpers.timber.ReleaseLogTree
