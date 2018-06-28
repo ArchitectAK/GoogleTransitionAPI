@@ -3,6 +3,6 @@
     android:duration="@integer/play_button_animation_duration"
     android:interpolator="@android:anim/accelerate_decelerate_interpolator"
     android:propertyName="pathData"
-    android:valueFrom="@string/stop_icon_bottom_path_data"
-    android:valueTo="@string/play_icon_bottom_path_data"
+    android:valueFrom="@string/play_icon_upper_path_data"
+    android:valueTo="@string/stop_icon_upper_path_data"
     android:valueType="pathType"/>
