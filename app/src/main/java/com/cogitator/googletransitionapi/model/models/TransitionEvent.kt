@@ -10,6 +10,7 @@ import com.cogitator.googletransitionapi.helpers.utils.transitionTypeFromInt
 import com.google.android.gms.location.ActivityTransitionEvent
 import kotlinx.android.parcel.Parcelize
 
+
 /**
  * @author Ankit Kumar (ankitdroiddeveloper@gmail.com) on 27/06/2018 (MM/DD/YYYY)
  */

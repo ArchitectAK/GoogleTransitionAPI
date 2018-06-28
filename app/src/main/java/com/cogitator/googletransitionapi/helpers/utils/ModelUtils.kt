@@ -1,5 +1,10 @@
 package com.cogitator.googletransitionapi.helpers.utils
 
+import com.cogitator.googletransitionapi.R
+import com.cogitator.googletransitionapi.model.models.ActivityType
+import com.cogitator.googletransitionapi.model.models.TransitionEvent
+import com.cogitator.googletransitionapi.model.models.TransitionType
+
 /**
  * @author Ankit Kumar (ankitdroiddeveloper@gmail.com) on 27/06/2018 (MM/DD/YYYY)
  */

@@ -10,6 +10,7 @@ import com.cogitator.googletransitionapi.MainActivity
 import com.cogitator.googletransitionapi.R
 import com.cogitator.googletransitionapi.di.qualifier.ApplicationContext
 import com.cogitator.googletransitionapi.di.qualifier.LocationNotificationChannelId
+import com.cogitator.googletransitionapi.helpers.NotificationChannelBuilder
 import com.cogitator.googletransitionapi.helpers.constants.RequestCodes
 import dagger.Module
 import dagger.Provides

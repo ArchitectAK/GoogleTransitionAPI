@@ -4,10 +4,9 @@ import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
 import com.cogitator.googletransitionapi.R
-import com.cogitator.googletransitionapi.helpers.utils.convertToDateTime
-import com.cogitator.googletransitionapi.helpers.utils.getDrawable
-import com.cogitator.googletransitionapi.helpers.utils.inflate
+import com.cogitator.googletransitionapi.helpers.utils.*
 import com.cogitator.googletransitionapi.model.models.TransitionEvent
+import kotlinx.android.synthetic.main.transition_item.view.*
 
 /**
  * @author Ankit Kumar (ankitdroiddeveloper@gmail.com) on 28/06/2018 (MM/DD/YYYY)

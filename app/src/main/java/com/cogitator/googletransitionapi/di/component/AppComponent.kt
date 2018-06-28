@@ -2,8 +2,7 @@ package com.cogitator.googletransitionapi.di.component
 
 import android.app.Application
 import com.cogitator.googletransitionapi.CogApplication
-import com.cogitator.googletransitionapi.di.module.ActivityBuilder
-import com.cogitator.googletransitionapi.di.module.AppModule
+import com.cogitator.googletransitionapi.di.module.*
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.support.AndroidSupportInjectionModule

@@ -1,6 +1,7 @@
 package com.cogitator.googletransitionapi.di.module
 
 import com.cogitator.googletransitionapi.MainActivity
+import com.cogitator.googletransitionapi.view.main.MainActivityModule
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

@@ -7,6 +7,7 @@ import com.cogitator.googletransitionapi.MainActivity
 import com.cogitator.googletransitionapi.di.qualifier.ApplicationContext
 import com.cogitator.googletransitionapi.helpers.utils.intentFor
 import com.cogitator.googletransitionapi.model.data.transitions.TransitionService
+import com.cogitator.googletransitionapi.view.main.adapter.TransitionsAdapter
 import dagger.Module
 import dagger.Provides
 import io.reactivex.disposables.CompositeDisposable

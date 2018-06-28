@@ -4,11 +4,21 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+androidExtensions {
+    experimental = true
+}
+
+kotlin {
+    experimental {
+        coroutines 'enable'
+    }
+}
+
 android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.cogitator.googletransitionapi"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -31,7 +41,7 @@ ext {
     supportLibVersion = '27.1.1'
     gcmVersion = '15.0.1'
     daggerVersion = '2.15'
-    roomVersion = '1.1.0'
+    roomVersion = '1.1.1'
 }
 
 dependencies {

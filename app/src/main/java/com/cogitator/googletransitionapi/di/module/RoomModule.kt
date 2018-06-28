@@ -3,6 +3,8 @@ package com.cogitator.googletransitionapi.di.module
 import android.arch.persistence.room.Room
 import android.content.Context
 import com.cogitator.googletransitionapi.di.qualifier.ApplicationContext
+import com.cogitator.googletransitionapi.model.data.room.AppDatabase
+import com.cogitator.googletransitionapi.model.data.room.TransitionDao
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
