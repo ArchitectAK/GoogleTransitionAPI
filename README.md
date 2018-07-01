@@ -1,8 +1,10 @@
 # GoogleTransitionAPI
 
-Under development
+Stepd to code are listed [here](https://medium.com/@cogitator/googles-transition-api-for-android-4fdc2ff7478)
 
+# And thats how it will like this.
 
+![Pic](https://github.com/AnkitDroidGit/GoogleTransitionAPI/blob/master/art/device.png)
 
 
 
