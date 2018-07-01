@@ -1,6 +1,6 @@
 # GoogleTransitionAPI
 
-Stepd to code are listed [here](https://medium.com/@cogitator/googles-transition-api-for-android-4fdc2ff7478)
+Steps to code are listed [here](https://medium.com/@cogitator/googles-transition-api-for-android-4fdc2ff7478)
 
 # And thats how it will like this.
 
